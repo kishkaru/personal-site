@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .starter-template {
   padding: 40px 15px;
@@ -8,17 +8,11 @@ body {
 }
 
 #intro{
-	font-family: Verdana;
-	font-size: 15px;
+	text-align: left;
+	font-size: 17px;
 }
 
 .hasBorder{
-    width:50%;
-    height: 50%;
-    border: 3px solid #000000;
-}
-
-.hasBorder2{
     width:75%;
     height: 75%;
     border: 3px solid #000000;
