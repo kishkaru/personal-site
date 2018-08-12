@@ -4,13 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="description" content="Kishan's site">
+    <meta name="description" content="Personal website of Kishan Karunaratne. Find out more about me!">
     <meta name="author" content="Kishan Karunaratne">
 
     <title>Kishan Karunaratne</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="resources/css/style.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
   </head>
 
   <body class="text-center">
@@ -21,22 +32,44 @@
         <nav class="nav nav-masthead justify-content-center">
           <a class="nav-link active" href="#">Bio</a>
           <a class="nav-link" href="#">Contact</a>
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="http://blog.karu.io/" target="_blank">Blog</a>
         </nav>
       </header>
 
-      <main role="main" class="cover">
+      <main class="cover">
         <div class="container">
           <h1 class="cover-heading">Welcome!</h1>
           <div class="row vertical-align">
             <div class="col-md">
-              <img src="resources/img/me.jpg" class="img-fluid img-thumbnail" alt="Picture of me">
+              <img src="resources/img/me.jpg" class="img-fluid img-thumbnail" alt="A picture of me">
             </div>
             <div class="col-md">
               <p class="lead">Hello! My name is Kishan and I'm currently working as a Software Engineer in Test at <a href="https://www.datastax.com/">DataStax</a>. I grew up in sunny Southern California before I moved up here to the Bay Area to study <a href="https://cs.berkeley.edu/">Computer Science</a> at UC Berkeley. In addition to my work at DataStax, I like to program, hack on hardware and PC's, play video games and go road biking. Use the links above to contact me!</p>
             </div>
           </div>
         </div>
+
+        <div class="container" id="contact-container" style="display:none">
+            <h1 class="cover-heading">Contact Information</h1>
+            <div class="row">
+              <div class="col">
+                <a href="mailto:kishan@karu.io" target="_blank"><button type="button" class="btn btn-secondary"><i class="fas fa-envelope-square icon"></i>Email</button></a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/kishkaru" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-github-square icon"></i>GitHub</button></a>
+              </div>
+              <div class="col">
+                  <a href="https://twitter.com/kishkaru" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-twitter-square icon"></i>Twitter</button></a>
+              </div>
+              <div class="col">
+                  <a href="https://www.linkedin.com/in/kishkaru" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-linkedin icon"></i>LinkedIn</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="resources/img/road.jpg" class="img-fluid img-thumbnail" alt="Picture of a road">
+            </div>
+          </div>
+
       </main>
 
       <footer class="mastfoot mt-auto"></footer>
@@ -45,5 +78,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="resources/js/script.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123812173-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-123812173-1');
+    </script>
   </body>
 </html>

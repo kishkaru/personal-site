@@ -37,11 +37,6 @@ a:hover {
   border: .05rem solid #fff;
 }
 
-/* .cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-} */
-
 /* ------------------------------------- */
 /* CUSTOM CSS */
 /* ------------------------------------- */
@@ -68,8 +63,7 @@ a:hover {
   border-bottom: .25rem solid transparent;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
+.nav-masthead .nav-link:hover {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
@@ -84,16 +78,34 @@ a:hover {
 
 /* Cover */
 .cover {
-  /* padding: 0 1.5rem; */
+  padding: 0 1.5rem;
 }
 
 .cover-heading {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .vertical-align {
   display: flex;
   align-items: center;
+}
+
+#contact-container {
+  max-width: 40em;
+}
+
+#contact-container .row:first-of-type {
+  max-width: 40em;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+#contact-container .row:last-of-type {
+  display: block;
+}
+
+.icon {
+  margin-right: 0.5em;
 }
 
 /* Footer */
@@ -111,7 +123,21 @@ a:hover {
 }
 
 @media (max-width: 48em) {
+  html,
+  body {
+    height: 107%;
+  }
+  .cover-heading {
+    margin: 2rem;
+  }
   .row .col-md:last-of-type {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 38.63em) {
+  html,
+  body {
+    height: 108%;
   }
 }
